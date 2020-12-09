@@ -1,0 +1,281 @@
+header, footer{
+	background-color: #000;
+	height: 75px;
+}
+section, header, footer {
+	padding:15px 100px;
+}
+
+.menu {
+	justify-content: center;
+	display: flex;
+}
+.dark{
+	border-color: #9a9a9a;
+}
+.menu a {
+	color: white;
+	margin: 10px 30px;
+}
+.begin .axit * {
+	margin: 10px 0 30px;
+	color: white;
+}
+.begin .row {
+	justify-content: space-around;
+}
+.begin {
+	background-image: url(../images/town.png);
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+.contacts {
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+.social {
+	padding-bottom: 0px;
+}
+.begin button {
+	background-color: #fff0;
+	border: 1px solid white;
+  padding: 15px;
+}
+.social {
+	border-bottom: 1px solid #80808038;
+}
+.social img {
+	max-width: 115px;
+	max-height: 70px;
+}
+.tab {
+	background-color: #333333;
+	color:white;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+}
+.tab:hover{
+	background-color:#ff8b38;
+}
+.tabs, .standart, .price {
+	background-color: #f5f5f5;
+	padding-top: 150px;
+}
+.tabs button{
+	background-color: #ff8b38;
+	color: white;
+	border:none;
+	border-radius: 7px;
+	padding: 15px;
+}
+.tabs .text * {
+	margin: 0px 0 33px 0;
+}
+.tabs img {
+	width: 70%;
+}
+.sub {
+	padding-top: 150px;
+}
+.standart img,
+.sub img {
+		width:80%;
+	}
+.standart .denis {
+text-align: right;
+}
+.awesome, .price, .customers, .contacts .description {
+	text-align: center;
+}
+.awesome hr, .price hr, .customers hr, .stylish hr, .contacts hr{
+margin-left: auto;
+}
+.price i, .contacts p{
+	color: #939393;
+}
+.popular {
+	background-color: #ff8b38;
+	color:white;
+	padding: 11px 10px 10px 10px;
+	margin-bottom: 0;
+}
+.light {
+	background-color: white;
+}
+.light p {
+	border-bottom: 1px solid #f5f5f5;
+	padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.dark {
+	background-color: #333333;
+	color:white;
+}
+.border2 {
+	border-bottom: 5px solid #ff8b38;
+	margin-top:24px;
+}
+.cost {
+	font-size: 80pt;
+    font-weight: bold;
+}
+.dark * {
+	padding: 10px;
+}
+.dark h3 {
+	border-bottom: 1px solid white;
+}
+.light p:first-child {
+	padding-top: 10px;
+}
+.review {
+	background-color: #f5f5f5;
+	width: 70%;
+}
+.review p{
+padding: 30px;
+}
+.review:after { 
+	content: " ";
+    width: 30px;
+    height: 30px;
+    background: #f5f5f5;
+    display: block;
+    margin-top: -40px;
+    margin-left: 19px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.stylish {
+	background-color: #9a9a9a;
+	color: white;
+	text-align: center;
+}
+.stylish button {
+	background-color: #fff0;
+    border: 1px solid white;
+    padding: 15px;
+    color: white;
+}
+
+footer img {
+	width: 70px;
+}
+footer .row {
+	justify-content: center;
+}
+form {
+	background-color: white;
+}
+.form1 * {
+	padding: 16px;
+}
+.form1 label {
+	margin: 10px 0px;
+}
+.started {
+	background-color: #ff9b51;
+}
+.free {
+	background-color: #f5f5f5;
+	padding: 0;
+}
+input, textarea {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+input:click {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+.started {
+	display: flex;
+	padding: 0;
+}
+.started button {
+	width: 100%;
+	border: none;
+	color: white;
+}
+legend {
+	margin: 10px;
+}
+.inputs {
+	margin: 10px;
+}
+.form2 .row {
+	justify-content: center;
+}
+.form2 input{
+	width: 100%;
+	padding: 25px 0px;
+}
+.form2 textarea {
+	width: 100%;
+}
+.message button{
+	background-color: #ff9b51;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	padding: 10px;
+}
+@media (min-width: 1466px) {
+	.icons{
+		display: flex;
+	}
+	.begin form {
+		width:60%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.menu a {
+	color: white;
+	margin: 10px 60px;
+}
+section, header, footer {
+	padding:15px 200px;
+}
+}
+
+@media (max-width: 992px) {
+	.menu {
+	justify-content: end;
+}
+}
+
+@media (max-width: 762px) {
+.menu {
+	display: block;
+}
+.buttons {
+	display: flex;
+	margin-bottom: 50px;
+}
+header {
+	height: 400px;
+}
+}
+@media (max-width: 574px) {
+	.review {
+	width: 100%;
+}
+}
+@media (max-width: 400px) {
+	.begin img{
+		width: 150px;
+	}
+	.cost {
+	font-size: 40pt;
+    font-weight: bold;
+}
+}
+section {
+		padding-bottom: 150px;
+}
+.stylish {
+	padding-bottom: 15px;
+}
